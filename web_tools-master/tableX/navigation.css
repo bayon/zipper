@@ -1,0 +1,28 @@
+#navigation {
+	height: 44px;
+	min-height: 44px;
+	padding-top: 14px;
+	/*background-color:#000000;*/
+	background-image: url('../images/transparentBlack75percent.png');
+	background-image: url('black_50.png');
+	background: -webkit-linear-gradient(0deg, #666666, #dddddd); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(0deg, #666666, #dddddd); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #666666, #dddddd); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #666666, #dddddd); /* Standard syntax (must be last) */
+}
+.navigationButton {
+	min-height: 30px;
+	border: none;
+	background-image: none;
+	height: 30px;
+	min-width: 75px;
+	width: 75px;
+	box-shadow: 2px 2px 1px #111111;
+	background: -webkit-linear-gradient(0deg, #666666, #dddddd); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(0deg, #666666, #dddddd); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #666666, #dddddd); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #666666, #dddddd); /* Standard syntax (must be last) */
+}
+.menu_item {
+	display: none;
+}

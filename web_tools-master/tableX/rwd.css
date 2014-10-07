@@ -1,0 +1,77 @@
+#section_main {
+	width: 50%;
+	float: left;
+}
+#section_sub1 {
+	width: 50%;
+	float: left;
+}
+
+/*------------------------------------------------------------*/
+/* <screen-sizes>
+ iPhone is 320×480,
+ iPhone 4 is 640×960
+ iPhone 5 is 640×1136
+ iPad 2 1024 x 768 pixels
+ </screen-sizes>
+ */
+/*------------------------------------------------------------*/
+@media screen and (max-width: 5000px) {
+	#page {
+		/*background-image: url('http://www.forteworks.com/forte_rwd/images/photo-1024-768.jpg');*/
+		min-height: 768px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#page {
+		/*background-image: url('http://www.forteworks.com/forte_rwd/images/photo-1024-768.jpg');*/
+		min-height: 768px;
+	}
+}
+@media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 768px) {
+	#page {
+		/*background-image: url('http://www.forteworks.com/forte_rwd/images/photo-768-1024.jpg');*/
+		min-height: 960px;
+	}
+}
+@media screen and (max-width: 640px) {
+
+	#page {
+		/*background-image: url('http://www.forteworks.com/forte_rwd/images/photo-640-960.jpg');*/
+		min-height: 960px;
+	}
+}
+@media screen and (max-width: 480px) {
+
+	#page {
+		/*background-image: url('http://www.forteworks.com/forte_rwd/images/photo-480-600.jpg');*/
+		background-image: url('zeroBackground_50.png');
+		min-height: 600px;
+	}
+	#section_main {
+		width: 100%;
+		float: left;
+	}
+	#section_sub1 {
+		width: 100%;
+		float: left;
+	}
+}
+@media screen and (max-width: 320px) {
+	#page {
+		/*background-image: url('http://www.forteworks.com/forte_rwd/images/photo-320-480.jpg');*/
+		background-image: url('zeroBackground_50.png');
+		min-height: 480px;
+	}
+	#section_main {
+		width: 100%;
+		float: left;
+	}
+	#section_sub1 {
+		width: 100%;
+		float: left;
+	}
+}

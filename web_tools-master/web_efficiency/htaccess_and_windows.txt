@@ -1,0 +1,5 @@
+go to notepad
+ 
+go to where your htaccess file should be
+
+open it.

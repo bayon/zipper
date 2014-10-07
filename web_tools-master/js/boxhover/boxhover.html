@@ -1,0 +1,438 @@
+<html>
+	<head>
+		<script language="javascript" type="text/javascript" src="boxhover.js"></script>
+
+<style>
+.rtable{
+border-top: solid 1px #000000;
+border-right: solid 1px #000000;
+border-left: solid 1px #000000;
+}
+
+.btable{
+border-bottom: solid 1px #000000;
+border-right: solid 1px #000000;
+border-left: solid 1px #000000;
+}
+.stamp{
+	font-family: verdana;
+	font-size: 9px;
+	color: 434A5B;
+}
+
+td.{
+	font-family: helvetica;
+	font-size: 11px;
+	color: #000000;
+}
+
+th.{
+	font-family: helvetica;
+	font-size: 12px;
+	font-weight: bold
+	color: #000000;
+}
+
+
+.header{
+	font-family: verdana;
+	font-size: 9px;
+	font-weight: bold;
+	color: 434A5B;
+	border: solid 1px #99B3E9;
+
+}
+
+.navi{
+	font-family: verdana;
+	font-size: 9px;
+	font-weight: bold;
+	color: 434A5B;
+	border: solid 1px #99B3E9;
+	width: 100%;
+
+}
+
+.naviover{
+	font-family: verdana;
+	font-size: 9px;
+	font-weight: bold;
+	color: 000000;
+	border: solid 1px #2F5F94;
+	background-color: #94C49C;
+	cursor: hand;
+	width: 100%;
+}
+
+.mailout{
+	font-family: verdana;
+	font-size: 11px;
+}
+mailout.{
+	font-family: verdana;
+	font-size: 11px;
+}
+
+
+
+.custlokup{
+	font-family: verdana;
+	font-size: 9px;
+	color: 2D2D2D;
+	background: 6180BF;
+}
+
+.custlokupn{
+	font-family: verdana;
+	font-size: 9px;
+	color: 2D2D2D;
+	background: 7A809C;
+}
+
+.calls{
+	font-family: verdana;
+	font-size: 9px;
+	text-align: center;
+	background: #ffffff;
+}
+
+.callsR{
+	font-family: verdana;
+	font-size: 9px;
+	text-align: center;
+	background: #91E9EF;
+}
+
+
+.classover{
+	font-family: verdana;
+	font-size: 9px;
+	font-weight: bold;
+	color: 000000;
+	border: solid 1px #2F5F94;
+	background-color: #94C49C;
+	cursor: hand;
+}
+
+
+
+
+.classoverb{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border: solid 1px black;
+	background-color: #94C49C;
+	cursor: hand;
+}
+
+
+
+
+
+         .thdrcell {
+            background:#F3F0E7;
+            font-family:arial;
+            font-size:12px;
+            font-weight:bold;
+            padding:5px;
+            border-bottom:1px solid #C8BA92;
+         }
+
+         .tdatacell {
+            font-family:arial;
+            font-size:12px;
+            padding:5px;
+            background:#FFFFFF
+         }
+
+         .badphone {
+            background:red;
+	     color: #FFFFFF;
+            font-family:arial;
+            font-size:12px;
+            font-weight:bold;
+            border:1px solid #000000;
+            padding:5px;
+            width:150px;
+	     cursor: hand;
+         }
+
+         .badphonea {
+            background:#FFFFFF;
+            font-family:arial;
+            font-size:12px;
+            border-left:1px solid red;
+            border-right:1px solid red;
+            border-bottom:1px solid red;
+            padding:5px;
+            width:150px;
+	     cursor: hand;
+         }
+
+
+        .eedvhdr1 {
+            background:#2F5F94;
+	     color: #FFFFFF;
+            font-family:arial;
+            font-size:12px;
+            font-weight:bold;
+            border:1px solid #000000;
+            padding:5px;
+            width:250px;
+	     cursor: hand;
+         }
+
+         .eedvbdy1 {
+            background:#FFFFFF;
+            font-family:arial;
+            font-size:12px;
+            border-left:1px ridge #000000;
+            border-right:1px ridge #000000;
+            border-bottom:1px ridge #000000;
+            padding:5px;
+            width:250px;
+	     cursor: hand;
+         }
+
+
+
+
+        .dvhdr1 {
+            background:#2F5F94;
+	     color: #FFFFFF;
+            font-family:arial;
+            font-size:12px;
+            font-weight:bold;
+            border:1px solid #000000;
+            padding:5px;
+            width:150px;
+	     cursor: hand;
+         }
+
+         .dvbdy1 {
+            background:#FFFFFF;
+            font-family:arial;
+            font-size:12px;
+            border-left:1px ridge #000000;
+            border-right:1px ridge #000000;
+            border-bottom:1px ridge #000000;
+            padding:5px;
+            width:150px;
+	     cursor: hand;
+         }
+
+         .dvhdr1rb {
+            background:#2F5F94;
+	     color: #FFFFFF;
+            font-family:arial;
+            font-size:12px;
+            font-weight:bold;
+            border:1px solid #000000;
+            padding:5px;
+            width:200px;
+	     cursor: hand;
+         }
+
+         .dvbdy1rb {
+            background:#FFFFFF;
+            font-family:arial;
+            font-size:12px;
+            border-left:1px inset #2F5F94;
+            border-right:1px outset #2F5F94;
+            border-bottom:1px outset #2F5F94;
+            padding:5px;
+            width:200px;
+	     cursor: hand;
+         }
+
+         .dvhdr1rbz {
+            background:#2F5F94;
+	     color: #FFFFFF;
+            font-family:arial;
+            font-size:12px;
+            font-weight:bold;
+            border:1px solid #000000;
+            padding:5px;
+            width:450px;
+	     cursor: hand;
+         }
+
+         .dvbdy1rbz {
+            background:#FFFFFF;
+            font-family:arial;
+            font-size:12px;
+            border-left:1px solid #2F5F94;
+            border-right:1px solid #2F5F94;
+            border-bottom:1px solid #2F5F94;
+            padding:5px;
+            width:450px;
+	     cursor: hand;
+         }
+
+	.gimlet{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border: solid 1px black;
+	background: #1B436F;
+	}
+
+
+	.gimletme{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border: solid 1px black;
+	background: #0F6C51;
+	}
+
+
+
+
+
+
+	.eggimlet{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border: solid 1px black;
+	background: #F0BD51;
+	}
+
+
+
+         p {
+         margin-top:20px;
+         }
+
+         h1 {
+         font-size:13px;
+         }
+
+         .dogvdvhdr {
+            width:300;
+            background:#C4D5E3;
+            border:1px solid #C4D5E3;
+            font-weight:bold;
+            padding:10px;
+         }
+
+         .dogvdvbdy {
+            width:300;
+            background:#FFFFFF;
+            border-left:1px solid #C4D5E3;
+            border-right:1px solid #C4D5E3;
+            border-bottom:1px solid #C4D5E3;
+            padding:10px;
+         }
+
+         .pgdiv {
+         width:320;
+         height:250;
+         background:#E9EFF4;
+         border:1px solid #C4D5E3;
+         padding:10px;
+         margin-bottom:20;
+         font-family:arial;
+         font-size:12px;
+         }
+
+
+.listen{
+ 	background-color: #A4A4A4;
+	font-size: 9pt;
+	font-family: arial;
+	color: #000000;
+	border: solid 1px #000000;
+	width: 100%;
+	height: 30px;
+	border-collapse:collapse;
+	border: solid 0px #000000;
+	cursor:url("RWSizeAll.cur");
+}
+
+
+.scorecard{
+ 	background-color: #A4A4A4;
+	font-size: 9pt;
+	font-family: arial;
+	color: #000000;
+	border: solid 1px #000000;
+	width: 100%;
+	height: 30px;
+	border-collapse:collapse;
+	border: solid 0px #000000;
+	cursor:url("BlueglassHelp.ani");
+}
+
+
+.notes{
+ 	background-color: #A4A4A4;
+	font-size: 9pt;
+	font-family: arial;
+	color: #000000;
+	border: solid 1px #000000;
+	width: 90x;
+	border-collapse:collapse;
+	border: solid 0px #000000;
+	cursor:url("BlueglassHelp.ani");
+}
+
+.googlemap{
+ 	background-color: #A4A4A4;
+	font-size: 9pt;
+	font-family: arial;
+	color: #000000;
+	border: solid 0px #000000;
+	width: 100%;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	border-collapse:collapse;
+	border: solid 0px #000000;
+	cursor:url("BlueglassHelp.ani");
+}
+
+
+
+
+</style>
+
+
+</head>
+<!--
+<TD>
+	<input class='navi' onmouseover="this.className='naviover'" onmouseout="this.className='navi'" 
+	title="cssbody=[dvbdy1] cssheader=[dvhdr1] header=[# Count] body=[Count of calls]" name='dumnut' type='submit' value='#' Disabled>
+</TD>
+	-->		
+<img src=images/call.jpg title="cssbody=[dvbdy1] cssheader=[dvhdr1] header=[Safe Number] body=[Number is NOT on the No Call List]">
+
+</html>
+
+
+
+
+
+

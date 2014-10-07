@@ -1,0 +1,12 @@
+TESTING OOPHPThisParent
+
+
+test 1 - show the child color
+BLUE
+
+
+test 2 - show the parent color
+RED
+
+
+END TESTING OOPHPThisParent

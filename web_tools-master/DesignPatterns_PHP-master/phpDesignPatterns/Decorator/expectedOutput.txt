@@ -1,0 +1,21 @@
+BEGIN TESTING DECORATOR PATTERN
+
+
+showing title : 
+Design Patterns
+
+
+showing title after two exclaims added : 
+!!Design Patterns!!
+
+
+showing title after star added : 
+!!Design*Patterns!!
+
+
+showing title after reset: 
+Design Patterns
+
+
+
+END TESTING DECORATOR PATTERN

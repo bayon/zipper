@@ -1,0 +1,115 @@
+<root>
+
+       <retinaNodesInfo>
+
+              <node type='content' id='1' name='but_btn_commentsInput_on' img='but_btn_commentsInput_on' x='243' y='613' w='1056' h='444' />
+
+              <node type='content' id='2' name='but_btn_commentsInput_off' img='but_btn_commentsInput_off' x='250' y='620' w='1056' h='444' />
+
+              <node type='content' id='3' name='img_bg_modal' img='img_bg_modal' x='52' y='90' w='1432' h='1902' />
+
+              <node type='content' id='4' name='but_btn_no_hi' img='but_btn_no_hi' x='811' y='854' w='305' h='306' />
+
+              <node type='content' id='5' name='but_btn_no_sel' img='but_btn_no_sel' x='811' y='854' w='305' h='306' />
+
+              <node type='content' id='6' name='but_btn_no_norm' img='but_btn_no_norm' x='811' y='854' w='305' h='306' />
+
+              <node type='content' id='7' name='but_btn_yes_hi' img='but_btn_yes_hi' x='420' y='854' w='306' h='306' />
+
+              <node type='content' id='8' name='but_btn_yes_sel' img='but_btn_yes_sel' x='420' y='854' w='306' h='306' />
+
+              <node type='content' id='9' name='but_btn_yes_norm' img='but_btn_yes_norm' x='420' y='854' w='306' h='306' />
+
+              <node type='content' id='10' name='but_btn_red_hi' img='but_btn_red_hi' x='959' y='809' w='305' h='381' />
+
+              <node type='content' id='11' name='but_btn_red_sel' img='but_btn_red_sel' x='959' y='809' w='305' h='381' />
+
+              <node type='content' id='12' name='but_btn_red_norm' img='but_btn_red_norm' x='959' y='809' w='305' h='381' />
+
+              <node type='content' id='13' name='but_btn_yellow_hi' img='but_btn_yellow_hi' x='615' y='810' w='305' h='375' />
+
+              <node type='content' id='14' name='but_btn_yellow_sel' img='but_btn_yellow_sel' x='615' y='810' w='305' h='375' />
+
+              <node type='content' id='15' name='but_btn_yellow_norm' img='but_btn_yellow_norm' x='615' y='810' w='305' h='375' />
+
+              <node type='content' id='16' name='but_btn_green_hi' img='but_btn_green_hi' x='272' y='809' w='306' h='381' />
+
+              <node type='content' id='17' name='but_btn_green_sel' img='but_btn_green_sel' x='272' y='809' w='306' h='381' />
+
+              <node type='content' id='18' name='but_btn_green_norm' img='but_btn_green_norm' x='272' y='809' w='306' h='381' />
+
+              <node type='content' id='19' name='img_img_yellowTopBar' img='img_img_yellowTopBar' x='0' y='35' w='1536' h='108' />
+
+              <node type='content' id='20' name='img_img_divLine' img='img_img_divLine' x='282' y='724' w='995' h='4' />
+
+              <node type='content' id='21' name='img_img_subhead' img='img_img_subhead' x='0' y='133' w='1536' h='128' />
+
+              <node type='content' id='22' name='but_btn_grey_on' img='but_btn_grey_on' x='344' y='1349' w='318' h='140' />
+
+              <node type='content' id='23' name='but_btn_grey_off' img='but_btn_grey_off' x='344' y='1349' w='318' h='140' />
+
+              <node type='content' id='24' name='but_btn_green_on' img='but_btn_green_on' x='884' y='1349' w='318' h='140' />
+
+              <node type='content' id='25' name='but_btn_green_off' img='but_btn_green_off' x='884' y='1349' w='318' h='140' />
+
+              <node type='content' id='26' name='img_bg_survey' img='img_bg_survey' x='0' y='6' w='1536' h='2042' />
+
+       </retinaNodesInfo>
+
+       <standardNodesInfo>
+
+              <node type='content' id='1' name='but_btn_commentsInput_on' img='but_btn_commentsInput_on' x='121' y='306' w='529' h='223' />
+
+              <node type='content' id='2' name='but_btn_commentsInput_off' img='but_btn_commentsInput_off' x='125' y='310' w='529' h='223' />
+
+              <node type='content' id='3' name='img_bg_modal' img='img_bg_modal' x='26' y='45' w='716' h='951' />
+
+              <node type='content' id='4' name='but_btn_no_hi' img='but_btn_no_hi' x='405' y='427' w='153' h='153' />
+
+              <node type='content' id='5' name='but_btn_no_sel' img='but_btn_no_sel' x='405' y='427' w='153' h='153' />
+
+              <node type='content' id='6' name='but_btn_no_norm' img='but_btn_no_norm' x='405' y='427' w='153' h='153' />
+
+              <node type='content' id='7' name='but_btn_yes_hi' img='but_btn_yes_hi' x='210' y='427' w='153' h='153' />
+
+              <node type='content' id='8' name='but_btn_yes_sel' img='but_btn_yes_sel' x='210' y='427' w='153' h='153' />
+
+              <node type='content' id='9' name='but_btn_yes_norm' img='but_btn_yes_norm' x='210' y='427' w='153' h='153' />
+
+              <node type='content' id='10' name='but_btn_red_hi' img='but_btn_red_hi' x='479' y='404' w='153' h='191' />
+
+              <node type='content' id='11' name='but_btn_red_sel' img='but_btn_red_sel' x='479' y='404' w='153' h='191' />
+
+              <node type='content' id='12' name='but_btn_red_norm' img='but_btn_red_norm' x='479' y='404' w='153' h='191' />
+
+              <node type='content' id='13' name='but_btn_yellow_hi' img='but_btn_yellow_hi' x='307' y='405' w='153' h='188' />
+
+              <node type='content' id='14' name='but_btn_yellow_sel' img='but_btn_yellow_sel' x='307' y='405' w='153' h='188' />
+
+              <node type='content' id='15' name='but_btn_yellow_norm' img='but_btn_yellow_norm' x='307' y='405' w='153' h='188' />
+
+              <node type='content' id='16' name='but_btn_green_hi' img='but_btn_green_hi' x='136' y='404' w='153' h='191' />
+
+              <node type='content' id='17' name='but_btn_green_sel' img='but_btn_green_sel' x='136' y='404' w='153' h='191' />
+
+              <node type='content' id='18' name='but_btn_green_norm' img='but_btn_green_norm' x='136' y='404' w='153' h='191' />
+
+              <node type='content' id='19' name='img_img_yellowTopBar' img='img_img_yellowTopBar' x='0' y='17' w='768' h='54' />
+
+              <node type='content' id='20' name='img_img_divLine' img='img_img_divLine' x='141' y='362' w='498' h='2' />
+
+              <node type='content' id='21' name='img_img_subhead' img='img_img_subhead' x='0' y='69' w='768' h='62' />
+
+              <node type='content' id='22' name='but_btn_grey_on' img='but_btn_grey_on' x='172' y='674' w='159' h='71' />
+
+              <node type='content' id='23' name='but_btn_grey_off' img='but_btn_grey_off' x='172' y='674' w='159' h='71' />
+
+              <node type='content' id='24' name='but_btn_green_on' img='but_btn_green_on' x='442' y='674' w='159' h='71' />
+
+              <node type='content' id='25' name='but_btn_green_off' img='but_btn_green_off' x='442' y='674' w='159' h='71' />
+
+              <node type='content' id='26' name='img_bg_survey' img='img_bg_survey' x='0' y='19' w='768' h='1005' />
+
+       </standardNodesInfo>
+
+</root>

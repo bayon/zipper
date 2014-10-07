@@ -1,0 +1,64 @@
+ 
+#tableXContainer{
+/*scrollable code in container*/
+	height:480px;
+	overflow:auto;
+	max-width:90%;
+	margin-left:5%;
+	
+}
+.tableX {
+	width:100%; 
+}
+.tableX th{
+	background-color:#444444;
+	
+	color:white;
+}
+.tableX tr {
+	 color:#666666;
+}
+.tableX tr:hover {
+    /*background-color: #CCCCCC;*/
+    
+}
+.tableX td {
+	text-align: center;
+	 
+	/*scrolling effect note: padding w/background transparent, then have div inside the td */
+	padding:20px;
+	
+}
+.tableX td:hover {
+	text-align: center;
+	color:#000000;
+}
+
+.scrollingTableCell{
+ 	background-color:white;
+ 	border:solid #111111 1px;
+ 	height:100px;
+ 	overflow:hidden;
+ 	padding:10px;
+ 	box-shadow: 2px 2px 2px #111111;
+}
+.scrollingTableCellContent{
+	height:95px;
+	float:left;
+	overflow:hidden;
+}
+ 
+.tableXFillerRow{
+	height:680px;
+	min-height:680px;
+	background-color:transparent;
+}
+
+.tableX h1, h2, h3{
+	font-family:Arial;
+}
+.tableX p{
+	font-family:Arial;
+	font-size:13px;
+	
+}

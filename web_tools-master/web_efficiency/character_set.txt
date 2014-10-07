@@ -1,0 +1,7 @@
+Apache: add to your .htaccess file in root directory:
+
+AddDefaultCharset UTF-8
+
+
+also in the HTML head:
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">

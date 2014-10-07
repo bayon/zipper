@@ -1,0 +1,16 @@
+TESTING OOPHPStatic
+
+
+test 1 - show the static var directly
+red: RED
+
+
+test 2 - show the static var using a class instance
+red: RED
+
+
+test 3 - show the static var using a static function
+red: RED
+
+
+END TESTING OOPHPStatic

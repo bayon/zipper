@@ -1,0 +1,10 @@
+BEGIN TESTING PHP ABSTRACT CLASSES
+
+
+test 1 - create a class which extends an abstract
+
+
+Harold
+
+
+END TESTING PHP ABSTRACT CLASSES

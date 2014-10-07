@@ -1,0 +1,18 @@
+TESTING OOPHPClass
+
+
+test 1 - create a class
+default name: default
+name after set: Harold
+
+
+test 2 - create another class
+Wilma
+
+
+test 3 - show both classes
+Class One Name: Harold
+Class Two Name: Wilma
+
+
+END TESTING OOPHPClass

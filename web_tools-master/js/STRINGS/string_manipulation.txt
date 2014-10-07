@@ -1,0 +1,32 @@
+string.lastIndexOf(searchstring, start) 
+
+<script type="text/javascript">
+
+var str="Hello world!";
+document.write(str.lastIndexOf("d") + "<br />");
+document.write(str.lastIndexOf("WORLD") + "<br />");
+document.write(str.lastIndexOf("world"));
+
+</script>
+
+The output of the code above will be:
+10
+-1
+6 
+
+
+================================================
+
+string.substr(start,length)
+
+<script type="text/javascript">
+
+var str="Hello world!";
+document.write(str.substr(3)+"<br />");
+document.write(str.substr(3,4));
+
+</script>
+
+The output of the code above will be:
+lo world!
+lo w

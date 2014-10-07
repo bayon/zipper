@@ -1,0 +1,7 @@
+CACHE MANIFEST
+# 2014-06-07 v1.0.1
+ ../js/ajax_navigation.js
+ NETWORK:
+# networkOnly.php
+ FALLBACK:
+#/html/ /offline.html

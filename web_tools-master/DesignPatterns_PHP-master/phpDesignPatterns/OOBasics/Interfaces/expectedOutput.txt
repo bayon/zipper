@@ -1,0 +1,11 @@
+BEGIN TESTING PHP INTERFACES
+
+
+test 1 - create a class which implements two interfaces
+
+
+Name One: Harold
+Name Two: Maude
+
+
+END TESTING PHP INTERFACES

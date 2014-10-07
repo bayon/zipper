@@ -1,0 +1,35 @@
+html {
+	text-align: center;
+	width: 100%;
+}
+body {
+	margin: 0px auto;
+	width: 100%;
+	background-color: #000000;
+}
+#page {
+	 
+	/*background-image: url('http://www.forteworks.com/forte_rwd/images/photo-320-480.jpg');*/
+	background-image: url('zeroBackground_50.png');
+	/*background-repeat: no-repeat;*/
+	background-position: center;
+	min-height: 480px;
+	overflow: hidden;
+}
+
+#content { 
+	width: 100%;	
+}
+
+.standardContainer {
+	min-height: 100px;
+	min-width: 200px;
+	background-color: #ffffff;
+	border: solid 1px #CCCCCC;
+	margin-top: 20px;
+	max-width:75%;
+	margin-left:15%;
+	box-shadow: 5px 5px 2px #111111;
+}
+
+

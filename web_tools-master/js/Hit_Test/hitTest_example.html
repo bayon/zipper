@@ -1,0 +1,41 @@
+<style type="text/css">
+#menu{position: absolute; height: 500px; width: 200px; display: none; border: 1px solid #999; background: #eef;}
+</style>
+
+<div id="menu">
+    <input type="button" onclick="hide();" value="Hide Menu" />
+</div>
+<form action="">
+    <fieldset>
+    <strong>DIV x SELECT</strong>
+    <br /><select><option>DIV OVER SELECT DIV OVER SELECT DIV OVER SELECT</option></select>
+    <input type="button" onclick="show();" value="Show Menu" />
+    </fieldset>
+</form>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+
+var x = document.getElementById("menu");
+
+//exemplo de como consertar o problema do select em cima do div, como só acontece no IE, é possível sniffar o browser...
+
+function show(){
+    x.style.display = "block";
+    if(!x.ieFix)
+        x.ieFix = hitTest(x, document.getElementsByTagName("select"));
+    for(var i = x.ieFix.length; i; x.ieFix[--i].style.visibility = "hidden");
+
+}
+
+function hide(){
+    x.style.display = "none";
+    for(var i = x.ieFix.length; i; x.ieFix[--i].style.visibility = "visible");
+}
+
+//]]>
+</script>

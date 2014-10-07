@@ -1,0 +1,98 @@
+#slideout {
+	z-index:99999;
+	
+	/*
+	background-image: url('../images/transparentWhite10x10.png');
+	*/
+	background-image: url('transparentBlack75percent.png');
+	height: 44px;
+	width: 44px;
+	color:#cccccc;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	opacity:1.0;
+	filter:alpha(opacity=100);
+	background-color:blue;
+	box-shadow: 1px 1px 1px #111111;
+}
+#slideout_inner {
+	/*
+	background-image: url('../images/transparentWhite10x10.png');
+	*/
+	background-image: url('transparentBlack75percent.png');
+	height: 100%;
+	width: 90%;
+	position: fixed;
+	top: 0px;
+	left: -90%;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	opacity:1.0;
+	filter:alpha(opacity=100);
+	
+}
+#slideoutText{
+	margin-top:20px;
+}
+#slideout:hover {
+	left: 90%;
+}
+#slideout:hover #slideout_inner {
+	left: 0;
+}
+
+#slideImage {
+	height: 40px;
+	width: 50px;
+}
+ 
+@media screen and (max-width: 600px) {
+	
+	/*<slidingMenu>*/
+	#slideout_inner {
+		height: 100%;
+		width: 90%;
+		position: fixed;
+		left: -90;
+	}
+	#slideout:hover {
+		left: 90%;
+	}
+	/*</slidingMenu>*/
+
+}
+
+@media screen and (max-width: 480px) {
+	/*<slidingMenu>*/
+	#slideout_inner {
+		height: 100%;
+		width: 90%;
+		position: fixed;
+		left: -90%;
+	}
+	#slideout:hover {
+		left: 90%;
+	}
+	/*</slidingMenu>*/
+}
+@media screen and (max-width: 320px) {
+	/*<slidingMenu>*/
+	#slideout_inner {
+		height: 100%;
+		width: 90%;
+		position: fixed;
+		left: -90%px;
+	}
+	#slideout:hover {
+		left: 90%;
+	}
+	/*</slidingMenu>*/
+
+}

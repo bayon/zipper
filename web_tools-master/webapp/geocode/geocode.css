@@ -1,0 +1,9 @@
+#map-canvas2 {
+	display:none;
+	position:relative;
+	 
+	width:75%;
+	height:50%;
+	margin-left:10%	; 
+	box-shadow: 5px 5px 2px #111111;
+}

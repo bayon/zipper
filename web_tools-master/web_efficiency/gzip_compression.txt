@@ -1,0 +1,18 @@
+You do compression by setting appropriate directive in apache.
+
+It goes uncommenting the following lines in your apache conf file: C:\xampp\apache\conf\httpd.conf
+
+if your xampp installation folder is C:\xampp.
+
+and these are the lines to be uncommented first:
+
+LoadModule headers_module modules/mod_deflate.so
+that is to say, if they have # before them, you should remove them!
+
+Then put this at the end of your httpd.conf file:
+
+SetOutputFilter DEFLATE 
+
+<Directory "C:/your-server-root/manual">  #any path to which you wish to apply gzip compression to!
+    AddOutputFilterByType DEFLATE text/html  # or any file type you wish
+</Directory> 
