@@ -1,0 +1,33 @@
+
+.redText {
+	color: red;
+}
+.italicText {
+	font-style: italic;
+}
+.inputText {
+	background-color: #000000;
+	color:white;
+}
+textarea {
+	width: 100%;
+	background-color: #000000;
+	color:white;
+}
+.inputCheckbox{
+	 color:white;
+}
+.checkboxLabel {
+	color: white;
+	font-size: 13px;
+	font-family: arial; 
+}
+.radioLabel {
+	color: white;
+	font-size: 13px;
+	font-family:arial;
+	margin-top:-5px;
+}
+.radioButton {
+	margin-left: 15px;
+}

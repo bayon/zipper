@@ -1,0 +1,22 @@
+
+.gridRow {
+	float: left;
+	min-height: 40px;
+	width: 100%;
+	xborder:solid 1px black;
+}
+.gridCell {
+	float: left;
+	min-height: 30px;
+	width:150px;
+	min-width:125px;
+	padding: 10px;
+	xborder:solid green 1px;
+}
+.gridFormContainer {
+	background-color: #222222;
+	padding: 10px;
+	border: solid black 3px;
+	float: left;
+	width: 90%;
+}
