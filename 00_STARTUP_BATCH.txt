@@ -1,0 +1,16 @@
+start up batch file command:
+C:\Users\bforte\AppData\Local\Temp\nppLocalization> start wakeUp.bat
+
+
+Control Panel Advanced Tools :
+C:\Windows\System32\control.exe
+-->> Control Panel\All Control Panel Items\Performance Information and Tools\Advanced Tools
+
+
+========================================
+The actual .bat file looks like this...
+========================================
+@echo off
+start "XAMPP" "C:\xampp\xampp-control.exe"
+start "Chrome" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+start "Aptana" "C:\Users\bforte\AppData\Local\Aptana Studio 3\AptanaStudio3.exe"
