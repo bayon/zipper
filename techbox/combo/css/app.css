@@ -1,0 +1,23 @@
+body {
+	xxxbackground-image: url('../img/zeroBackground_50.png');
+	background-color:#fff;
+}
+.std_label {
+	min-width: 125px;
+	width: 125px;
+} 
+ 
+.nav,.nav-tabs{
+	 xxxbackground-color:#111;
+}
+p{
+	color:#333;
+}
+a{
+	color:#333;
+}
+#fixedNavigationAdjuster{
+	height:65px;
+	 
+}
+ 
