@@ -1,0 +1,84 @@
+html{
+	width:100%;
+}
+body{
+	margin:0;
+	background-color:#eee;
+	font-family:helvetica,arial,verdana;
+}
+select {
+    width:150px;
+    border:1px solid black;
+    border-radius: 4px;
+    padding:2px;
+}
+.app_title{
+	margin-top:2%;
+	float:left; 
+	margin-left:10%;
+	font-size:20px;
+}
+.app_logo{
+	margin-top:2%;
+	float:left;
+	margin-left:10%;
+}
+.page_content{
+	float:left;
+	width:80%;
+	min-height:300px;
+	margin-top:5%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10%;
+	border:solid 1px #ccc;
+	background-color:#fff;
+	padding:10px;
+	border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #999;
+}
+.page_title{
+	font-size:16px;
+	color:blue;
+	margin-bottom:30px;
+	text-align:center;
+}
+#slideMenu {
+	float:right;
+    width: 30px;
+    height: 50px;
+    background: #555;
+    -webkit-transition: width .25s; /* For Safari 3.1 to 6.0 */
+    transition: width .25s;
+}
+
+#slideMenu:hover {
+    width: 300px;
+}
+#content{
+	 display:none;
+	 padding:10px;
+}
+#sMenuData{
+	min-width:150px;
+	float:left;
+	margin-left:30px;
+	overflow-y:scroll;
+	height:30px;
+	background-color:#fff; 
+}
+.sMenuOption{
+	height:20px;
+	font-size:16px;
+}
+.sMenuOption a{
+	font-size:18px;
+	font-weight:bold;
+}
+
+#scrollToTopBtn{
+	position:fixed;
+	bottom:0px;
+	
+}
