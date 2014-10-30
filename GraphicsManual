@@ -1,0 +1,62 @@
+The Graphics Manual is an organizing of my "technology" bookmark research as it relates to Graphics.
+I. 3D Animation & Gaming
+	A. Languages:
+		1. Javascript
+		2. Python
+			a. Scripts
+
+	B. Software
+		1. Cinema 4D
+		2. Blender  http://www.blender.org/
+		3. Blend4Web
+	C. Game Engines
+		1. ThreeJS 
+			SOURCE: https://github.com/mrdoob/three.js/  
+			GATEWAY: http://threejs.org/
+			a. Interactive Examples
+				i. Space Debris (inkfood)
+				ii. Stemkoski
+			b. quick modeling tools( besides blender)
+				i. http://callum.com  interactive template
+
+
+		2. ThreeX { game extensions }
+		3. Other game engines
+			a. babylonjs
+
+	D. TESTING ENVIRONMENT
+		1. CocoonJS
+
+	E. VoodooJS ( Mixing 3d and 2D content)
+
+	F. General Resources
+		1. BVH files
+		2. BV Hacker http://www.3dartistonline.com/news/2011/03/free-blender-tutorial/
+
+
+II. 2D Animation & Interactivity
+	A. Languages
+		1. Javscript
+		2. Actionscript
+			a. Scripts
+				i. http://snipplr.com/
+
+	B. Software
+		1. Adobe Edge
+		2. Flash
+		3. FlashDevelop
+		4. Swish
+		5. Adobe Flex
+	C. Libraries
+		1. Raphael http://raphaeljs.com/
+
+
+III. Graphics
+	A. Photoshop
+	B. Illustrator
+	C. Gimp
+	D. Inkscape
+	E. Job Types
+		1. Create a spherical map
+			a. lizardlounge.com
+

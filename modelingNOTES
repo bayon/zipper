@@ -1,0 +1,149 @@
+modeling rigging notes:
+
+http://cgi.tutsplus.com/tutorials/create-an-animation-walk-cycle-in-blender-using-rigify--cg-17812
+
+- make sure cursor at center point of grid
+- make sure cursor at base of model
+- Rigify add on
+    user preferences > Rigify
+
+- shft+A Armature > Human (Meta-Rig)
+	- armature props: 
+		-xray
+-select meta rig
+EDIT MODE:
+-sclae to match
+- press period to make cursor the pivot point
+- press comma to make median point center of rotations /scaling
+
+toolbox
+	Armature Options > x-axis Mirror
+-select and move bone tips to match mesh
+- check from top view as well
+- match bones from side view
+- ( don't make leg bones too straight, make natural bend  at knee)
+
+OBJECT MODE:
+-armature props > Rigify buttons > generate
+(shouldtake a few seconds)
+
+- Now, we don't need the previous meta-rig, so move it to another layer
+
+Skinning:
+-select the mesh then the Generated Rig
+-CTRL+P > automatic weight
+
+SWITCH MODES: CTRL+TAB
+
+POSE MODE:
+-play with bones
+STEP 11:
+You can find the deforming bones in the third to last Bone layer(see image).*probably only applies to that particular incident.
+Shft+Left click to select along with other layers. 
+Shift + click again to make the bones under this layer invisible.
+
+(MAKE SURE YOU ARE IN POSE MODE)
+-select the mes > Ctrl+Tab to enter weight paint mode
+select bones you would like to adjust the weight for by Right click
+Press T > for tool shelf
+check x Mirror
+
+
+in the Brush panel you can adjust settings
+	- weight  or strength, etc.
+
+( bones with higher weight are MORE affected by bone movement and vice vesus)
+
+once satisfied...
+Ctrl+Tab to exit weight painting
+
+selcet the armature  
+in armature prop window:
+ hold shift+left mnouse on the deforming bones layer and hide them.
+
+ in POSE MODE:
+ select any leg control
+ press N to open Properties shelf
+ >Rig Main Properties > slide FK/IK to full
+ - do the same for other leg
+ You can alsepo toggle on/off the display of the bones layers with the short cyt on the 
+ Rig Layer Panel.
+ HGide the bones you are not using . 
+ turn xray off
+
+ ANIMATING:
+ screen layout menu > select Animation
+
+Dope Sheet Window:
+> select Action Editor
+Click the RECORD button
+(auto create key frames when moved,rotated or scaled)
+
+with mouse on 3D window
+press 3 on num pad to get side view
+ORTHO ( toggle num 5)
+make sure 1st frame
+select left foot bone and achieve first pose of walking.
+( press G to move and R to rotate)
+now pose the other arms and leg.
+-twist hip bone to flow of the legs
+rotate shoulder s with flow of arms
+( hsoulders and hips opposite rotation)
+-select head , in bones properties uncheck "inherit rotation"
+
+press A to selec all bones > Press I > select LocRot
+click the copy pose button
+drag time line to frame 21
+SAVE
+click on the last button- Flip Paste( INVERT PASTE)
+
+play just to see
+
+go to frame 11
+Pull up torso
+move foot up
+select All > click Copy pose button
+timeline to frame 31
+"flip-paste" button
+
+copy pose at frame 1
+flip-paste it at frame 41
+
+
+type 40 in the END FRAME box
+
+TO MAKE IT FASTER:
+move the key frames closer together
+or
+go to frame one in Dope Sheet Editor
+Press A to select all frames 
+> press S to scale move mouse to left, and left click to confirm
+
+
+in the dope sheet editor
+name the action Walk
+SAVE FILE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
