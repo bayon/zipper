@@ -23,9 +23,9 @@
 
 		</style>
 	 
-		<script src="three.min.js"></script>
-		<script src="TrackballControls.js"></script>
-		<script src="CSS3DRenderer.js"></script>
+		<script src=" js/three.min.js"></script>
+		<script src="js/TrackballControls.js"></script>
+		<script src="js/CSS3DRenderer.js"></script>
 		<script>
 			var camera, scene, renderer;
 			var scene2, renderer2;
